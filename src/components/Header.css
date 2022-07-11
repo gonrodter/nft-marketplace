@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    top: 0; 
+    width: 100%; 
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 20px 0 rgb(209 218 241/45%);
+}
+
+.logo{
+    color: #7ca5c0;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+  
+.nav-links li {
+    list-style: none;
+}
+  
+.nav-links a {
+    color: #7ca5c0;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+}
